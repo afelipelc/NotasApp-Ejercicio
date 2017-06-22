@@ -1,0 +1,109 @@
+.label{
+    -fx-font-family: "System";
+    -fx-font-size: 15;
+    /*-fx-text-fill: rgba(0, 0, 0, 0.9);
+    -fx-effect: dropshadow( one-pass-box , rgba(0, 0, 0, 0.3), 0, 0.0 , 0 , 1 );
+    */
+}
+
+.btn{
+    -fx-border: 1px;
+    -fx-border-style: solid;
+    -fx-border-radius: 4px;
+    -fx-font-weight: 400;
+}
+
+.btn-primary {
+    -fx-font-size: 18;
+    -fx-color: #fff;
+    -fx-background-color: #337ab7;
+    -fx-border-color: #2e6da4;
+    -fx-text-fill: white;
+}
+
+.btn-info {
+    -fx-color: #fff;
+    -fx-background-color: #5bc0de;
+    -fx-border-color: #46b8da;
+    -fx-text-fill: white;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #236196;
+}
+
+.btn-sucess {
+    -fx-color: #fff;
+    -fx-background-color: #5cb85c;
+    -fx-border-color: #4cae4c;
+    -fx-text-fill: white;
+}
+.btn-sucess:hover {
+    -fx-background-color: #3C8F3C;
+}
+
+.btn-danger {
+    -fx-font-size: 14;
+    -fx-color: #fff;
+    -fx-background-color: #d9534f;
+    -fx-border-color: #d43f3a;
+    -fx-text-fill: white;
+}
+
+.btn-remove {
+  -fx-graphic: url('trash.png');
+  -fx-background-position: center;
+  -fx-border-radius: 8px;
+  /*-fx-background-color: #d9534f;*/
+      /*-fx-border-color: #d43f3a;*/
+      -fx-background-size: 32 32;
+}
+.btn-remove:hover {
+    -fx-border-color: #d43f3a;
+}
+
+.btn-remove:active {
+    -fx-background-color: #d9534f;
+    -fx-border-color: #d43f3a;
+}
+
+.color-pick {
+  /*-fx-graphic: url('color_picker.png');*/
+  -fx-background-position: center;
+  -fx-border-radius: 8px;
+      -fx-background-size: 32 32;
+      -fx-background-position: top center;
+      /*-fx-border-color: #A19D9D;*/
+}
+
+.color-pick : hover {
+    /*-fx-border-color: #A19D9D;*/
+}
+.color-picker .color-picker-label{
+    -fx-text-fill: white;
+}
+
+.color-picker .picker-color .picker-color-rect{
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-pref-width: 16;
+    -fx-pref-height: 16
+}
+
+.text-field, .text-area {
+	-fx-font-size: 18;
+    /*-fx-background-color:
+    	rgba(150, 197, 217, 0.3),
+    	linear-gradient(rgba(150, 197, 217, 0.4), rgba(61, 107, 125, 0.8) 50%),
+        rgb(221, 234, 237);*/
+    /*-fx-background-insets: 0 0 -1 0, 0, 1.5;*/
+
+    -fx-border-radius: 4px;
+    -fx-border-color: #4085c5;
+    -fx-font-family: "System";
+
+}
+
+.text-area {
+	/*-fx-padding: 6 5 6 5;*/
+}
